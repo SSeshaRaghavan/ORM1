@@ -20,9 +20,10 @@ Enter the code for admin.py and models.py
 Execute Django admin and create details for 10 books
 
 ## PROGRAM
-
+manage.py4
+admin.py
 ## OUTPUT
-
+![alt text](<Screenshot 2025-03-26 153610.png>)
 Include your output imagr
 
 ## RESULT
