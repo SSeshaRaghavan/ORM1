@@ -32,15 +32,15 @@ class Movie(models.Model):
     duration = models.IntegerField(help_text="Duration in Minutes")
 
 class MovieAdmin(admin.ModelAdmin):
-    list_display = ('title', 'director', 'release_date', 'genre', 'rating', 'duration')```
+    list_display = ('title', 'director', 'release_date', 'genre', 'rating', 'duration')
 admin.py
-```from django.contrib import admin
+from django.contrib import admin
 from.models import Movie,MovieAdmin
 admin.site.register(Movie,MovieAdmin)```
 ## OUTPUT
-<<<<<<< HEAD
+
 ![alt text](<Screenshot 2025-03-26 153610.png>)
-Include your output imagr
+Include your output image
 =======
 include your output image
 >>>>>>> 8f608a58ce2dc1743d36d16da6d4519992777e1e
