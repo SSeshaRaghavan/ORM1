@@ -21,7 +21,7 @@ Execute Django admin and create details for 10 books
 
 ## PROGRAM
 models.py
-```from django.db import models
+from django.db import models
 from django.contrib import admin
 class Movie(models.Model):
     title = models.CharField(max_length=255, help_text="Movie Title")
@@ -36,7 +36,7 @@ class MovieAdmin(admin.ModelAdmin):
 admin.py
 from django.contrib import admin
 from.models import Movie,MovieAdmin
-admin.site.register(Movie,MovieAdmin)```
+admin.site.register(Movie,MovieAdmin)
 ## OUTPUT
 
 ![alt text](<Screenshot 2025-03-26 153610.png>)
